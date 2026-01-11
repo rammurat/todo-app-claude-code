@@ -35,7 +35,7 @@ function App() {
           <a href="/" className="nav-link active">Home</a>
           <a href="/contact" className="nav-link">Contact</a>
         </nav>
-        <h1>My List</h1>
+        <h1>My Today's list</h1>
         <button onClick={toggleTheme} className="theme-btn">
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
