@@ -10,7 +10,7 @@ describe('App', () => {
 
   it('renders the app title', () => {
     render(<App />)
-    expect(screen.getByText('My List')).toBeInTheDocument()
+    expect(screen.getByText("My Today's list")).toBeInTheDocument()
   })
 
   it('shows empty message when no todos', () => {
