@@ -1,1 +1,3 @@
 /node_modules
+.slingshot
+.DS_Store
